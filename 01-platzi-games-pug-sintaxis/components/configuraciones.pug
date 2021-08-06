@@ -1,0 +1,11 @@
+-var title = "Titulo Principal"
+-var btnregistro = "Registro"
+-var titulos = ["Titulo Principal","Subtitulo 1","Subtitulo 2","Subtitulo 3"] //-arreglo en pug
+-var enlaces = ["Acerca","Noticias","Contacto"];
+-var usuario = "Santiago"
+mixin caja(imagen,titulo,contenido) 
+	.caja 
+		.caja__imagen: img(src="./images/"+imagen, alt="")
+		.caja__contenido 
+			h3=titulo 
+			p=contenido	

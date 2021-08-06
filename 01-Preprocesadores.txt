@@ -1,0 +1,24 @@
+Los preprocesadores don formas de darle forma al codigo css de una manera mas profesional
+y escalable, esto nos ayudara a escalar proyectos grandes y asi dejar de tener un codigo muy grande de CSS
+
+CSS- CASCADING STYLE SHEETS
+
+Selector por etiqueta
+selector anidado
+Selector de Id --Es un elemento Unico
+Selector de clase
+Sleector de Hijos
+Sleector adyacente h2 + h2  --Los lementos seguidos del primer elemento
+Selector de atributos
+
+
+id= 100
+clase= 10
+etiqueta = 1
+
+!important = 10000 - el important no es tan buena practica
+
+Preprocesador nos permite agregar funciones, variables o mixins
+
+variable es un pedazo de memoria que despues podemos reutilizar
+

@@ -1,0 +1,7 @@
+BEM 
+
+Bloque  - Elemento - Modificador
+
+.galeria
+.galeria__foto  = el elemento del bloque
+.galeria__foto--circula

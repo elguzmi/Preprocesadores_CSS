@@ -1,0 +1,2 @@
+less tiene funciones predefinidas como lo son
+fade(color, procentaje); le da un tono transparente

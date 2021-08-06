@@ -1,0 +1,8 @@
+header.cabezal
+	h1 PlatziGames
+	if usuario
+		a hola #{usuario}
+	else
+		a.boton(href="http:/google.com") #{btnregistro}
+			span.botton__icon
+				img(src="https://img.icons8.com/dotty/80/000000/login-rounded-right.png")

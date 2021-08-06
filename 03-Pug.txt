@@ -1,0 +1,5 @@
+Pug es un generador de templates implementado con javascript para node.js y navegadores
+
+sintaxis
+interpolacion
+variables etc
