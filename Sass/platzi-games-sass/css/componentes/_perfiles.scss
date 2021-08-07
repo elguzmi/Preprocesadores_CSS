@@ -2,7 +2,7 @@
 	width: 60%;
 	padding-top: 50px;
 	color: $color-claro;
-	background-color: $color-secundario;
+	@include changeBackground($color-secundario);
 	&__avatar {
 		display: block;
 		margin: 0 auto;

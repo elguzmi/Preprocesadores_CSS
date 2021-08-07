@@ -5,20 +5,18 @@
 	margin: 0 auto;
 	padding-top: 10px;
 	justify-content: space-around;
-	@include caja; //para inlcuir un mixin toca colorca include el enombre del mixin
+	@include caja; //para incluir un mixin toca colorca include el enombre del mixin
 
 	h3{
 		
 		font-weight: 600;
 		font-size: 20px;
 		text-align: center;
-		color: $color-primario;
 		@include titulos($fuente2)
 	}
 	span{
 		font-size: 12px;
 		text-align: center;
-		color: $color-primario;
 		@include titulos($fuente2);
 	}
 }

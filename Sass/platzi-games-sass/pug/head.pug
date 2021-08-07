@@ -1,12 +1,4 @@
-mixin stats(valor,leyenda)
-	.estadistica_elemento
-		h3=valor
-		span=leyenda
-mixin article(categoria,titulo, descripcion)
-	.articulo
-		span.articulo__categoria=categoria
-		h2.articulo__titulo=titulo
-		p.articulo__descripcion=descripcion
+include global.pug
 doctype html
 html
 	head
@@ -18,3 +10,4 @@ html
 		link(rel='stylesheet', href='../css/ejercicio-sass.css')
 		script(src='https://kit.fontawesome.com/552ebddad2.js')
 	body
+		block content

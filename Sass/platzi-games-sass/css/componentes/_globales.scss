@@ -11,12 +11,22 @@ $mood:true;
 @mixin caja {
 	border-radius: 20px;
 	box-shadow: 0px 20px 33px 0px rgba(0,0,0,0.50);
-	color: $color-primario;
-	background-color: $color-claro;
+	
+	@if $mood ==true{
+		background-color: $color-primario;
+	}@else{
+		background-color: $color-claro;
+
+	}
 }
 
 //mixin con condicional
 @mixin  titulos($fuente) {
+	@if $mood == true {
+		color: $color-claro;
+	}@else{
+		color: $color-primario;
+	}
 	@if $fuente==$fuente1 {
 		font-family: $fuente1;
 	}@else{
@@ -37,6 +47,15 @@ $mood:true;
 		margin: 0;
 	}
 }
+
+@mixin changeBackground($fondo) {
+	@if $mood ==true{
+		background-color: #9d9b00;
+	}@else{
+		background-color: $fondo;
+	}
+}
+
 
 
 * {
