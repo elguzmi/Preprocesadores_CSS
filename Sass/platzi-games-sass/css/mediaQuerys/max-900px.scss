@@ -1,0 +1,26 @@
+main{
+    flex-direction: column;
+    .perfil{
+        width: 100%;
+        .galeria{
+            width: 80%;
+            &__foto-principal{
+
+                height: 100px
+            }
+
+            &__fotos-adicionales {
+                width: 308px;
+                float: right;
+                img{
+                    width: 30%
+                }
+            }
+        }
+    }
+
+    .articulos{
+        @extend .perfil;
+    }
+
+}

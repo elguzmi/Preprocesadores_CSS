@@ -1,0 +1,21 @@
+main {
+  flex-direction: column;
+}
+main .perfil, main .articulos {
+  width: 100%;
+}
+main .perfil .galeria, main .articulos .galeria {
+  width: 80%;
+}
+main .perfil .galeria__foto-principal, main .articulos .galeria__foto-principal {
+  height: 100px;
+}
+main .perfil .galeria__fotos-adicionales, main .articulos .galeria__fotos-adicionales {
+  width: 308px;
+  float: right;
+}
+main .perfil .galeria__fotos-adicionales img, main .articulos .galeria__fotos-adicionales img {
+  width: 30%;
+}
+
+/*# sourceMappingURL=max-900px.css.map */

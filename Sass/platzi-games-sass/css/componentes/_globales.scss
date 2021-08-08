@@ -13,7 +13,7 @@ $mood:true;
 	box-shadow: 0px 20px 33px 0px rgba(0,0,0,0.50);
 	
 	@if $mood ==true{
-		background-color: $color-primario;
+		background-color: $color-claro;
 	}@else{
 		background-color: $color-claro;
 
@@ -23,7 +23,7 @@ $mood:true;
 //mixin con condicional
 @mixin  titulos($fuente) {
 	@if $mood == true {
-		color: $color-claro;
+		color: $color-variacion;
 	}@else{
 		color: $color-primario;
 	}
@@ -50,12 +50,11 @@ $mood:true;
 
 @mixin changeBackground($fondo) {
 	@if $mood ==true{
-		background-color: #9d9b00;
+		background-color: $color-primario;
 	}@else{
 		background-color: $fondo;
 	}
 }
-
 
 
 * {

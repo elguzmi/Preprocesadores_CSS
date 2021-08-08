@@ -13,10 +13,9 @@
 	}
 
 	h2{
-		text-transform: uppercase;
 		font-weight: 600;
 		font-size: 20px;
-		font-family: $fuente2;
+		@include titulos($fuente1)
 
 	}
 	h3{
