@@ -23,9 +23,16 @@ opacidad(color,cantidad){
 //loop
 for num in (3 2 1)
 	h{num}
-		font-size:  35px - (5*num)
+		font-size:  35px - (5*num)  //va a reducir 5 veces este valor
 		margin: 0
 
+titulos(fuente)
+	if fuente == Fuente1
+		font-family: Fuente1
+	else
+		font-family: fuente2
+		font-weight: 600
+		text-transform: uppercase
 
 
 * //No se utilizan corchetes ni punto y coma
@@ -35,6 +42,6 @@ for num in (3 2 1)
 
 body
 	margin: 0
-	font-family: Fuente1
+	titulos(Fuente1)
 	color: color-primario
 
