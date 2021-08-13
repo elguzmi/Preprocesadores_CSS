@@ -1,0 +1,20 @@
+/* gtid 4x4 */
+.contenedor--home{
+    height: 1200px;
+    width: 1300px;
+    margin: 0 auto;
+    //definicion de grid
+    @include display-grid();
+    @include grid-template-columns(1fr grid-repeat(3)); //4 columnas
+    @include grid-template-rows(1fr grid-repeat(3)); //4 columnas
+}
+
+.caja--grande{
+    @include grid-row(1,3);
+    @include grid-column(1,4); //empieza en la 1 y termina en la 4
+
+}
+
+.banner--homepage{
+    
+}
