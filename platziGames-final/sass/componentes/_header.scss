@@ -7,7 +7,7 @@
     margin-bottom: 20px;
 }
 .nav--header ul{
-    display: flex;
+    display: none;
     padding-top: 35px;
     li{
         list-style: none;
@@ -18,10 +18,13 @@
         @include titulos($Fuente2);
 
     }
+    @include media('desktop-s'){
+        display: flex;
+    };
 }
 
 .header__busqueda{
-    display: flex;
+    display: none;
     margin-left: auto;
     padding-top: 35px;
     &:hover{   //anidacion eso es un hover
@@ -35,5 +38,8 @@
     span{
         @include titulos($Fuente2);
         color: $color-secundario;
+    }
+    @include media('desktop-s'){
+        display: flex;
     }
 }
